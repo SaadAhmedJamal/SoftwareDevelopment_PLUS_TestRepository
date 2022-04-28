@@ -44,7 +44,8 @@ using the export command exported the requirements file @requirements_softdevenv
 Used GITHUB online
 
 ### Create a pull request (and accept, reject or comment on the request from someone else!)
-Created a pull request to the repositories [@PullRequest](https://github.com/pochsarah/PLUS_softwaredev_2022)
+Created a pull request to the repositories [@PullRequest](https://github.com/pochsarah/PLUS_softwaredev_2022) in the [Repository](https://github.com/SaadAhmedJamal/PLUS_softwaredev_2022) 
+
 
 ## Diffuculties:
 The problem arised in recreating the environment due to dependencies.

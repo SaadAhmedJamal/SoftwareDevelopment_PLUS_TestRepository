@@ -1,9 +1,9 @@
-## Dealing with Python Environment
+# Dealing with Python Environment
 
-# Created a Python environment myenvThree
+## Created a Python environment myenvThree
 Installed python library plotly in the newly created environment.
 
-# Exported the file using Command Line Interface (CLI)
+## Exported the file using Command Line Interface (CLI)
 Following commands in Anaconda CLI were used to create the requirements file and exporting the python environment. 
 For requirements file in txt format:
 ``` conda env export > myThree.txt ```
@@ -15,12 +15,12 @@ The commands were taken from the [Link](https://stackoverflow.com/questions/4827
 ![image](https://user-images.githubusercontent.com/28218597/165750197-3cefbae2-66c9-4161-81fd-f17e80cfbc87.png)
 
 
-# Commitited a conda environment
+## Commitited a conda environment
 Using GitHUB Online Interface, myenvThree was commited.
 Forked the repo as done before in the course 
 Under the repositories tab forked repo's can be seen.
 
-# Recreated the environment
+## Recreated the environment
 
 ``` conda env create -f softdevenv.yml ```
 The environment can be forked from the repository [pochsarah/PLUS_softwaredev_2022](https://github.com/pochsarah/PLUS_softwaredev_2022)
@@ -36,16 +36,16 @@ _ Modify the environment (i.e. installed plotly as it was not included already!)
 
 
 
-# Update the requirements file (i.e. export the modified environment)
+### Update the requirements file (i.e. export the modified environment)
 using the export command exported the requirements file
 
-# Add, commit and push the new requirements file
+### Add, commit and push the new requirements file
 Used GITHUB online
 
-# Create a pull request (and accept, reject or comment on the request from someone else!)
+### Create a pull request (and accept, reject or comment on the request from someone else!)
 Created a pull request to the repositories [@PullRequest](https://github.com/pochsarah/PLUS_softwaredev_2022)
 
-#Diffuculties:
+## Diffuculties:
 The problem arised in recreating the environment due to dependencies.
 In the python environment file, seperate out the dependencies that are highlighted in command line prompt 
 and use ``` pip: ``` before it. This lets the compiler know that these dependecies can be installed later.

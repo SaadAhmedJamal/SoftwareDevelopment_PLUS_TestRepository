@@ -38,7 +38,7 @@ _ Modify the environment (i.e. installed plotly as it was not included already!)
 
 
 ### Update the requirements file (i.e. export the modified environment)
-using the export command exported the requirements file
+using the export command exported the requirements file @requirements_softdevenv_updated file.
 
 ### Add, commit and push the new requirements file
 Used GITHUB online

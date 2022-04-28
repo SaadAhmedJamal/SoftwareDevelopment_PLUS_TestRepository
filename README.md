@@ -4,10 +4,11 @@ Installed python library plotly in the newly created environment.
 
 # Exported the file using command
 For txt file:
-''' conda env export > myThree.txt '''
+``` conda env export > myThree.txt ```
 For yml file:
-''' conda env export > myThree.yml into yml file '''
+``` conda env export > myThree.yml into yml file ```
 
+The commands were taken from the [@Link](https://stackoverflow.com/questions/48278769/export-import-conda-environment-and-package-including-local-files) 
 
 ![image](https://user-images.githubusercontent.com/28218597/165750197-3cefbae2-66c9-4161-81fd-f17e80cfbc87.png)
 
@@ -18,7 +19,7 @@ For yml file:
 # Forked the repo of someone in the course (or pull the newest changes if you have it forked from the first task)
 # recreated the environment softdevenv
 
-''' conda env create -f softdevenv.yml '''
+``` conda env create -f softdevenv.yml ```
 
 ![image](https://user-images.githubusercontent.com/28218597/165758386-17676782-aac1-4d8f-8a6a-ff7b58207888.png)
 

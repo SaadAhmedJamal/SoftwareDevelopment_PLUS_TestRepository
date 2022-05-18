@@ -52,3 +52,5 @@ The problem arised in recreating the environment due to dependencies.
 In the python environment file, seperate out the dependencies that are highlighted in command line prompt 
 and use ``` pip: ``` before it. This lets the compiler know that these dependecies can be installed later.
 
+### A3: A leaflet web - map.
+The file A3.html is a web map preapred using leaflet javascript library.

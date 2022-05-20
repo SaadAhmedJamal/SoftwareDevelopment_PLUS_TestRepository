@@ -53,4 +53,4 @@ In the python environment file, seperate out the dependencies that are highlight
 and use ``` pip: ``` before it. This lets the compiler know that these dependecies can be installed later.
 
 ### A3: A leaflet web - map.
-The file A3.html is a web map preapred using leaflet javascript library.
+The file index.html is a web map preapred using leaflet javascript library.

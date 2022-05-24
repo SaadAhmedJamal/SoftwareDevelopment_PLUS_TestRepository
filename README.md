@@ -9,7 +9,7 @@ Following commands in Anaconda CLI were used to create the requirements file and
 For requirements file in txt format:
 ``` conda env export > myThree.txt ```
 For exporting the python environment yml file:
-``` conda env export > myThree.yml into yml file ```
+``` conda env export > myThree.yml``` into yml file 
 
 The commands were taken from the [Link](https://stackoverflow.com/questions/48278769/export-import-conda-environment-and-package-including-local-files) 
 

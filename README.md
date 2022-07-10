@@ -1,7 +1,8 @@
-# Software Development PLUS TestRepository
+# Software Development PLUS Final Project Branch
 
 this is a repository, for the Practic: Software Development tasks.
 
 
-## The Branches are related to the Assignments
-# Dear Professor Hannah, Please go to the Branch A2
+## Please use the Readme file for proper execution of OBIA through GUI
+
+The Graphical User interface can be accessed through working solution.ipynb jupyter notebook(notebook file). 

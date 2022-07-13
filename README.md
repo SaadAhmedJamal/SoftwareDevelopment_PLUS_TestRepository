@@ -12,10 +12,10 @@ The Graphical User interface can be accessed through working solution.ipynb jupy
 A brief repot about the GUI is as follows:
 
 
-##Abstract
+## Abstract
 Developed a Graphical User interface (GUI) in python. The GUI can be used to select the raster file in TIFF (.tif) format. By selecting the type of image segmentation, Object Based Image Analysis can be done through k means clustering segmentation algorithm, Chessboard, QuickShift, QuickShift_ratio and slic. Currently, segmentation can be done through the GUI. The best means for OBIA implemented in the GUI is K means clustering. The show raster and show vector functions and the canvas was for the purpose of displaying geographical data, however it is not implemented currently. All other features work successfully. The main purpose of GUI was to perform Object Based Image segmentation that can be done through GUI in four different types of segmentation. The sample input file and output file can be found in corresponding folders within the GitHub repository that has been used for the test purpose. Using pyinstaller library there was an attempt to convert jupyter notebook file into exe file. Opening the executable file, the GUI works fine within the same user as it was created. However, transferring .exe file into other computer doesnot work without installing the dependencies. Therefore, for making the code standalone other means would be preferred e.g. Docker.
 
-##Requirements
+## Requirements
 Following are the packages used for creation of Graphical User Interface along with their purpose of use.
 -tkinter
 For Graphical User Interface
@@ -31,8 +31,8 @@ For rasters to be processed as numpy arrays
 For calculating time on each process.
 
  
-##Literature Background:
-###GDAL
+## Literature Background:
+### GDAL
 GDAL, also known as GDAL/OGR, is a library of tools used for manipulating geospatial data. GDAL works on both raster and vector data types, and is an incredible useful tool to be familiar with when working with geospatial data. While the GDAL library can be used programmatically, GDAL also includes a CLI (Command Line Interface).
 
 A note about names
@@ -45,7 +45,7 @@ Commonly-used commands
 
 Python provides different modules and libraries to make the projects interactive. One such attribute is the Graphical User Interface (GUI) which can be added to the projects using the Python libraries like Tkinter, PyQt5, Kivy and more. The Tkinter library is among the most common libraries for designing interactive GUI applications. It is lightweight and easy to use. We can operate this library on different platforms or Operating Systems like Windows, Linux, and macOS.
 
-##TKINTER PROGRAMMING
+## TKINTER PROGRAMMING
 Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
 Creating a GUI application using Tkinter is an easy task. All you need to do is perform the following steps:
 •	Import the Tkinter module.
@@ -54,7 +54,7 @@ Creating a GUI application using Tkinter is an easy task. All you need to do is 
 •	Enter the main event loop to take action against each event triggered by the user.
 
 
-###Tkinter Widgets
+### Tkinter Widgets
 Tkinter provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called widgets.
 There are currently 15 types of widgets in Tkinter. We present these widgets as well as a brief description in the following table.
 Sr.No.	Operator & Description
@@ -110,9 +110,9 @@ For the created GUI grid method was used for organizing the widget.
  
 
 
-#Result:
+# Result:
  
-##Graphical User Interface
+## Graphical User Interface
 
 Browse the image to be segmented through Browse File button
  
@@ -124,7 +124,7 @@ Kmeans Segmentation output (generated through the GUI)
  
 The segmentation can be viewed through python third party software such as Photos or QGIS.
  
-#Code:
+# Code:
 import tkinter as tk
 from tkinter import *
 from tkinter import filedialog
@@ -159,8 +159,8 @@ def myClick(var1):
     myLabel.grid(column = 1, row = 1)
     
     
-# Function for opening the
-# file explorer window
+#Function for opening the
+#file explorer window
 def browseFiles():
     global filename
     filename = filedialog.askopenfilename(initialdir = "/",

@@ -1,6 +1,6 @@
-#Final Project Branch
+# Final Project Branch
 
-this is a repository, for the Practic: Software Development tasks.
+this is a repository, for the Application Development Project.
 
 
 ## Please use the Readme file for proper execution of OBIA through GUI

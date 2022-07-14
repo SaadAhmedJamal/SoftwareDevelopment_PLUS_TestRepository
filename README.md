@@ -309,3 +309,32 @@ scroll_bar = Scrollbar(window)
 scroll_bar.grid(column = 2, row=1)
 window.mainloop()
 
+
+
+
+
+
+While your final project should be conducted and documented on GitHub, this is where you can share you personal experiences of the final project.
+
+Write 1-2 pages about your experience, which may include:
+
+# Experience
+
+- technical challenges you faced
+The challenges we faced was importing libraries even after the libraries were successfully installed into the 
+
+- important insights you learned
+Group work can lead to more user centric design for Graphical User Interface.A technical person might omight or overview many flaws that can be highglighted by the group 
+Transferability is not easy. Even .exe file is not completely transferable.
+Working with environments revelaed the strengths and weaknesses of python programming.
+Exporting environemnet and installing it in the other computer comes handy when notebook is to be run on some other computer.
+
+
+- steps you would have done differently
+
+- any difficulties encontered in the group work
+If the direction of final project is set right from the start of semester, final project could be well managed within time frame of semeseter.
+With the end of semester approaching, too many tasks to be done for the group work.
+
+- anything else you would like me to know when evaluating the work.
+

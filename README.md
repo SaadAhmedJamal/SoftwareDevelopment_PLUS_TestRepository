@@ -321,7 +321,8 @@ Write 1-2 pages about your experience, which may include:
 # Experience
 
 - technical challenges faced
-The challenges we faced was importing libraries even after the libraries were successfully installed into the 
+The challenges we faced was importing libraries even after the libraries were successfully installed. To solve this we needed to create new environment and reinstall the libraries. 
+Using both pip and conda for installing libraries in a python environment is not recommended. Its better to use either of the channels to avoid such errors.
 
 - important insights learned
 Group work can lead to more user centric design for Graphical User Interface.A technical person might omight or overview many flaws that can be highglighted by the group 
@@ -335,7 +336,7 @@ Learning and using docker container for making GUI transferable instead of .exe 
 
 
 - Difficulties encontered in the group work
-If the direction of final project is set right from the start of semester, final project could be well managed within time frame of semeseter.
+If the grouping and the topic of final project is set right from the start of semester, final project could be well managed within time frame of semeseter.
 With the end of semester approaching, too many tasks to be done for the group work.
 
 

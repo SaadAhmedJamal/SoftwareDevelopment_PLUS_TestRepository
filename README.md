@@ -313,11 +313,6 @@ window.mainloop()
 
 
 
-
-While your final project should be conducted and documented on GitHub, this is where you can share you personal experiences of the final project.
-
-Write 1-2 pages about your experience, which may include:
-
 # Experience
 
 - technical challenges faced

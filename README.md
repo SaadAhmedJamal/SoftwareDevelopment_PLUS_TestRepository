@@ -1,6 +1,6 @@
 # Final Project Branch
 
-this is a repository, for the Application Development Project.
+This is a repository, for the Project.
 
 
 ## Please use the Readme file for proper execution of OBIA through GUI
